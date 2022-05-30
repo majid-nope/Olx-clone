@@ -1,0 +1,73 @@
+nav {
+    margin-right: 1px;
+    width: 100vw;
+    height: 7vh;
+    background-color: black;
+    background: white;
+    box-shadow: -7px 6px 6px -9px black;
+}
+
+.banner {
+    width: 100vw;
+    height: 20vh;
+    padding-left: 2%;
+    background-image: url("https://statics.olx.in/olxin/banners/hero_bg_in_v1@1x.png");
+    background-position: center;
+
+
+}
+
+section {
+    height: 100vh;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: -1;
+}
+
+.searched_bases_container {
+    margin-top: 4%;
+    width: 100%;
+    background-color: rgb(230, 225, 225);
+    border-radius: 5px;
+
+}
+
+.searched_bases_container>h3 {
+    margin: 10px;
+    margin-top: 2px;
+
+}
+
+.searched_bases {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(230, 225, 225);
+    border-radius: 5px;
+
+
+}
+
+
+.recommendations_container {
+    margin-top: 4%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.recommendations_container>h3 {
+    margin: 10px;
+    margin-top: 2px;
+}
+
+.recommendation_bases {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+    flex-wrap: wrap;
+
+}
